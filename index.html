@@ -37,13 +37,13 @@
               <li><a class="btn">Short By View</a></li>
             </ul>
           </div>
-          <a class="btn btn-ghost"><img class="w-28" src="images/logo.png" alt=""></a>
+          <a class="cursor-pointer"><img class="w-28" src="images/logo.png" alt=""></a>
         </div>
         <div class="navbar-center hidden lg:flex">
           <a class="btn">Short By View</a>
         </div>
         <div class="navbar-end">
-          <a class="btn">Blog</a>
+          <a class="btn btn-success">Blog</a>
         </div>
       </div>
     </nav>
@@ -52,13 +52,20 @@
 
   <main>
     <!-- Category Section -->
-     <section id="category">
-
+     <section id="category-section" class="my-6 text-center">
+      
      </section>
 
-     <!-- video container -->
-      <section id="video-container">
+      <!-- error element -->
+      <div id="error-element" class="hidden mt-24">
+        <img class="mx-auto" src="images/no-data.png" alt="No video found">
+        <h1 class="text-3xl mt-3 text-slate-300 text-center">Opps!! There's No video found with this category id '1005' </h1>
+       </div>
 
+     <!-- video container -->
+      <section id="video-container" class="grid lg:grid-cols-3 gap-4">
+        <!-- card -->
+    
       </section>
   </main>
 
